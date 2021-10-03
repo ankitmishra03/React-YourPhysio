@@ -1,23 +1,74 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Dates from "./Dates.js";
+import React, { useState } from "react";
+import Time from "./Time.js";
 
 function App() {
+  const [time, settime] = useState(0);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <table>
+        <tr>
+          <th>Dates</th> <th>Start Time Stop time</th>
+        </tr>
+        <tr>
+          <td>
+            <Dates day={1} />
+          </td>
+          <td>
+            <Time onChange={(e) => settime(e + time)} />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <Dates day={2} />
+          </td>
+          <td>
+            <Time onChange={(e) => settime(e + time)} />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <Dates day={3} />
+          </td>
+          <td>
+            <Time onChange={(e) => settime(e + time)} />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <Dates day={4} />
+          </td>
+          <td>
+            <Time onChange={(e) => settime(e + time)} />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <Dates day={5} />
+          </td>
+          <td>
+            <Time onChange={(e) => settime(e + time)} />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <Dates day={6} />
+          </td>
+          <td>
+            <Time onChange={(e) => settime(e + time)} />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <Dates day={7} />
+          </td>
+          <td>
+            <Time onChange={(e) => settime(e + time)} />
+          </td>
+        </tr>
+      </table>
+      <h1>Total :{time}</h1>
     </div>
   );
 }
