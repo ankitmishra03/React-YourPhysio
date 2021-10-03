@@ -68,7 +68,7 @@ function App() {
           </td>
         </tr>
       </table>
-      <h1>Total :{time}</h1>
+      <h1>Total Hours: {time}</h1>
     </div>
   );
 }
