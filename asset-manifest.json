@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/React-YourPhysio/static/css/main.5e634675.chunk.css",
+    "main.js": "/React-YourPhysio/static/js/main.2ec96db3.chunk.js",
+    "main.js.map": "/React-YourPhysio/static/js/main.2ec96db3.chunk.js.map",
+    "runtime-main.js": "/React-YourPhysio/static/js/runtime-main.1bbd8153.js",
+    "runtime-main.js.map": "/React-YourPhysio/static/js/runtime-main.1bbd8153.js.map",
+    "static/js/2.137b25b1.chunk.js": "/React-YourPhysio/static/js/2.137b25b1.chunk.js",
+    "static/js/2.137b25b1.chunk.js.map": "/React-YourPhysio/static/js/2.137b25b1.chunk.js.map",
+    "index.html": "/React-YourPhysio/index.html",
+    "static/css/main.5e634675.chunk.css.map": "/React-YourPhysio/static/css/main.5e634675.chunk.css.map",
+    "static/js/2.137b25b1.chunk.js.LICENSE.txt": "/React-YourPhysio/static/js/2.137b25b1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1bbd8153.js",
+    "static/js/2.137b25b1.chunk.js",
+    "static/css/main.5e634675.chunk.css",
+    "static/js/main.2ec96db3.chunk.js"
+  ]
+}
